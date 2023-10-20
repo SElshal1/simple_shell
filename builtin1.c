@@ -1,3 +1,4 @@
+builtin1.c‏
 #include "shell.h"
 
 /**
@@ -71,7 +72,7 @@ int print_alias(list_t *node)
 	{
 		p = _strchr(node->str, '=');
 		for (a = node->str; a <= p; a++)
-		_putchar(*a);
+			_putchar(*a);
 		_putchar('\'');
 		_puts(p + 1);
 		_puts("'\n");
@@ -113,4 +114,3 @@ int _myalias(info_t *info)
 
 	return (0);
 }
-
