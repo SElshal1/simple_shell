@@ -1,3 +1,4 @@
+errors1.c‏
 #include "shell.h"
 
 /**
@@ -138,4 +139,3 @@ void remove_comments(char *buf)
 			break;
 		}
 }
-
