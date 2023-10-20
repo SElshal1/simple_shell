@@ -1,3 +1,4 @@
+lists1.c‏
 #include "shell.h"
 
 /**
@@ -120,4 +121,3 @@ ssize_t get_node_index(list_t *head, list_t *node)
 	}
 	return (-1);
 }
-
